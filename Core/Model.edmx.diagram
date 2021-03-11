@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4b9b2d7102364db88fb989afcf7125a2" Name="Diagram1" ZoomLevel="101">
+        <EntityTypeShape EntityType="maraphonModel.Charity" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="maraphonModel.Country" Width="1.5" PointX="0.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="maraphonModel.Event" Width="1.5" PointX="5.25" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="maraphonModel.EventType" Width="1.5" PointX="3" PointY="20.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="maraphonModel.Gender" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="maraphonModel.Position" Width="1.5" PointX="1.75" PointY="23.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="maraphonModel.RaceKitOption" Width="1.5" PointX="6" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="maraphonModel.Registration" Width="1.5" PointX="8.25" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="maraphonModel.RegistrationEvent" Width="1.5" PointX="10.5" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="maraphonModel.RegistrationStatus" Width="1.5" PointX="6" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="maraphonModel.Review" Width="1.5" PointX="8.25" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="maraphonModel.Role" Width="1.5" PointX="1.5" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="maraphonModel.Runner" Width="1.5" PointX="3" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="maraphonModel.Sponsor" Width="1.5" PointX="5.25" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="maraphonModel.Sponsorship" Width="1.5" PointX="10.5" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="maraphonModel.Staff" Width="1.5" PointX="4" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="maraphonModel.Timesheet" Width="1.5" PointX="6.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="maraphonModel.User" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="maraphonModel.user3" Width="1.5" PointX="3" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="maraphonModel.Volunteer" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="maraphonModel.RunnerMarathon" Width="1.5" PointX="5.25" PointY="13" IsExpanded="true" />
+        <AssociationConnector Association="maraphonModel.FK_Registration_Charity" ManuallyRouted="false" />
+        <AssociationConnector Association="maraphonModel.FK_Sponsor_Charity" ManuallyRouted="false" />
+        <AssociationConnector Association="maraphonModel.FK_Marathon_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="maraphonModel.FK_Runner_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="maraphonModel.FK_Volunteer_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="maraphonModel.FK_Event_EventType" ManuallyRouted="false" />
+        <AssociationConnector Association="maraphonModel.FK_Event_Marathon" ManuallyRouted="false" />
+        <AssociationConnector Association="maraphonModel.FK_RegistrationEvent_Event" ManuallyRouted="false" />
+        <AssociationConnector Association="maraphonModel.FK_Runner_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="maraphonModel.FK_Volunteer_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="maraphonModel.FK_Staff_Position" ManuallyRouted="false" />
+        <AssociationConnector Association="maraphonModel.FK_Registration_RaceKitOption" ManuallyRouted="false" />
+        <AssociationConnector Association="maraphonModel.FK_Registration_RegistrationStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="maraphonModel.FK_Registration_Runner" ManuallyRouted="false" />
+        <AssociationConnector Association="maraphonModel.FK_RegistrationEvent_Registration" ManuallyRouted="false" />
+        <AssociationConnector Association="maraphonModel.FK_Sponsorship_Registration" ManuallyRouted="false" />
+        <AssociationConnector Association="maraphonModel.FK_Review_user3" ManuallyRouted="false" />
+        <AssociationConnector Association="maraphonModel.FK_Review_Volunteer" ManuallyRouted="false" />
+        <AssociationConnector Association="maraphonModel.FK_User_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="maraphonModel.FK_Runner_User" ManuallyRouted="false" />
+        <AssociationConnector Association="maraphonModel.FK_RunnerMarathon_Runner" ManuallyRouted="false" />
+        <AssociationConnector Association="maraphonModel.FK_Sponsor_Runner" ManuallyRouted="false" />
+        <AssociationConnector Association="maraphonModel.FK_Staff_User" ManuallyRouted="false" />
+        <AssociationConnector Association="maraphonModel.FK_Timesheet_Staff" ManuallyRouted="false" />
+        <AssociationConnector Association="maraphonModel.FK_Volunteer_User" ManuallyRouted="false" />
+        <AssociationConnector Association="maraphonModel.FK_RunnerMarathon_user3" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
